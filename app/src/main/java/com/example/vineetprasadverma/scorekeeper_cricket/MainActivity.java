@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     int runs = 0;
     int bowls = 0;
     int wicket = 0;
-    String winnerTeam = "TEAM WINS" ;
+    String winnerTeam = "" ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -68,16 +68,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void chooseWinner(){
         if(runs>21){
-            winnerTeam = "BATTING " + winnerTeam;
+            winnerTeam = "BATTING TEAM WINS" ;
             displayWinner(winnerTeam);
         }
         else if(bowls>=6){
-            winnerTeam = "BOWLING " + winnerTeam;
+            winnerTeam = "BOWLING TEAM WINS";
             displayWinner(winnerTeam);
         }
-        else{
 
-        }
     }
 
     /**

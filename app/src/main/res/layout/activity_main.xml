@@ -116,7 +116,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="@dimen/batballbuttonmargin"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="add6ForBattingTeam"
