@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ScoreKeeper-Cricket</string>
+    <string name="batting_team">BATTING TEAM</string>
+    <string name="bowling_team">BOWLING TEAM</string>
+    <string name="runs_scored">0</string>
+    <string name="bowls_bowled">0</string>
+    <string name="runs">(RUNS)</string>
+    <string name="bowls">(BOWLS)</string>
+    <string name="sixruns">+6 RUNS</string>
+    <string name="fourruns">+4 RUNS</string>
+    <string name="oneruns">+1 RUNS</string>
+    <string name="nextball">NEXT BALL</string>
+    <string name="illegalball">WIDE/NO BALL</string>
+    <string name="wicket">WICKET</string>
+    <string name="reset">RESET</string>
+    <string name="fallofwicket">0</string>
+    <string name="leaguename">GWALIOR PREMIERE LEAGUE</string>
+    <string name="Target">TARGET - 21 RUNS</string>
+    <string name="matchOver">(1 OVER MATCH)</string>
+
+</resources>
