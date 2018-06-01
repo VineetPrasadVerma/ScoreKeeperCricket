@@ -19,23 +19,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void add6ForBattingTeam(View v){
         runs = runs +6 ;
-        bowls = bowls +1 ;
         displayForBattingTeam(runs);
-        displayForBowlingTeam(bowls);
         chooseWinner();
     }
     public void add4ForBattingTeam(View v){
         runs = runs +4 ;
-        bowls = bowls +1 ;
         displayForBattingTeam(runs);
-        displayForBowlingTeam(bowls);
         chooseWinner();
     }
     public void add1ForBattingTeam(View v){
         runs = runs +1 ;
-        bowls = bowls +1 ;
         displayForBattingTeam(runs);
-        displayForBowlingTeam(bowls);
         chooseWinner();
     }
     public void addOneForBattingTeam(View v){
@@ -91,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void displayWinner(String winner) {
         TextView scoreView = (TextView) findViewById(R.id.winner);
-        scoreView.setText(String.valueOf(winner));
+        scoreView.setText(winner);
     }
 
     /**
